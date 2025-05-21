@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="form-title">Connexion</h1>
+    <form method="post" action="login.php">
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <label for="email">Email Institutionnel</label>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+        <label for="password">Mot de passe</label>
+      </div>
+
+      <input type="submit" class="btn" value="Se connecter">
+    </form>
+
+    <div class="links">
+      <p>Vous n’avez pas de compte ?</p>
+      <a href="register.html"><button>Inscription</button></a>
+    </div>
+  </div>
+
+</body>
+</html>

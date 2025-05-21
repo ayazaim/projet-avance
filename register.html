@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="form-title">Inscription</h1>
+    <form method="post" action="">
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" name="lName" id="lName" placeholder="Nom" required>
+        <label for="lName">Nom</label>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" name="fName" id="fName" placeholder="Prénom" required>
+        <label for="fName">Prénom</label>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <label for="email">Email Institutionnel</label>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+        <label for="password">Mot de passe</label>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-user-tag"></i>
+        <select name="role" id="role" required>
+          <option value="">-- Sélectionnez votre rôle --</option>
+          <option value="etudiant">Étudiant</option>
+          <option value="enseignant">Enseignant</option>
+          <option value="admin">Administrateur</option>
+        </select>
+        <label for="role">Rôle</label>
+      </div>
+
+      <input type="submit" class="btn" value="S'inscrire">
+    </form>
+
+    <div class="links">
+      <p>Vous avez déjà un compte ?</p>
+      <a href="login.html"><button>Connexion</button></a>
+    </div>
+  </div>
+
+</body>
+</html>
