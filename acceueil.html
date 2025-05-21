@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <title>ENSA Projects</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .school-banner {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+        .logo img {
+            height: 40px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .logo span {
+            font-size: 20px;
+            font-weight: bold;
+            vertical-align: middle;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="logo">📘 ENSA Projects</div>
+        <div class="logo">
+            <img src="ensak logo1.png" alt="Logo ENSA">
+            <span>ENSA Projects</span>
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Accueil</a></li>
@@ -16,7 +38,6 @@
                 <li><a href="#">Contact</a></li>
                 <li><a href="login.html" class="btn-connexion">Connexion</a></li>
                 <li><a href="register.html" class="btn-connexion">S'inscrire</a></li>
-
             </ul>
         </nav>
     </header>
@@ -28,30 +49,32 @@
             <div class="hero-buttons">
                 <a href="register.html" class="btn">S’inscrire</a>
                 <a href="login.html" class="btn">Connexion</a>
-
             </div>
         </div>
-        <div class="hero-image">
-            <img src="hero-placeholder.svg" alt="Illustration">
+        
+    </section>
+
+    <!-- Bannière photo de l'école -->
+    <img src="ensak photo.png" alt="Photo ENSA" class="school-banner">
+
+    <section style="padding: 60px 40px; background: #f4f4f4;">
+        <h2 style="text-align: center; color: #1e3c72; margin-bottom: 40px;">Fonctionnalités Clés</h2>
+        <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+            <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+                <h3 style="color:#001F5B;">Soumission</h3>
+                <p>Les étudiants peuvent soumettre leurs projets et stages facilement avec fichiers.</p>
+            </div>
+            <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+                <h3 style="color:#001F5B;">Validation</h3>
+                <p>Les enseignants peuvent commenter, valider ou refuser les projets.</p>
+            </div>
+            <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+                <h3 style="color:#001F5B;">Consultation</h3>
+                <p>Les projets peuvent être consultés pour s’inspirer ou échanger entre étudiants.</p>
+            </div>
         </div>
     </section>
-    <section style="padding: 60px 40px; background: #f4f4f4;">
-  <h2 style="text-align: center; color: #1e3c72; margin-bottom: 40px;">Fonctionnalités Clés</h2>
-  <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
-    <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
-      <h3 style="color:#001F5B;">Soumission</h3>
-      <p>Les étudiants peuvent soumettre leurs projets et stages facilement avec fichiers.</p>
-    </div>
-    <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
-      <h3 style="color:#001F5B;">Validation</h3>
-      <p>Les enseignants peuvent commenter, valider ou refuser les projets.</p>
-    </div>
-    <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
-      <h3 style="color:#001F5B;">Consultation</h3>
-      <p>Les projets peuvent être consultés pour s’inspirer ou échanger entre étudiants.</p>
-    </div>
-  </div>
-</section>
 
 </body>
 </html>
+
